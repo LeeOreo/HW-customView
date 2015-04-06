@@ -14,6 +14,13 @@
 		937253E81AD2286F00EEA6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937253E71AD2286F00EEA6D5 /* Images.xcassets */; };
 		937253EB1AD2286F00EEA6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937253E91AD2286F00EEA6D5 /* LaunchScreen.xib */; };
 		937253F71AD2286F00EEA6D5 /* HW_customViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937253F61AD2286F00EEA6D5 /* HW_customViewTests.m */; };
+		937254021AD22A3200EEA6D5 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 937254011AD22A3200EEA6D5 /* UIView+Frame.m */; };
+		937254061AD22D7400EEA6D5 /* UIView+LayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 937254051AD22D7400EEA6D5 /* UIView+LayoutHelper.m */; };
+		937254091AD2342100EEA6D5 /* OreoContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 937254081AD2342100EEA6D5 /* OreoContent.m */; };
+		9372540E1AD2417C00EEA6D5 /* OreoEdgetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372540D1AD2417C00EEA6D5 /* OreoEdgetLabel.m */; };
+		937254121AD2616400EEA6D5 /* OreoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 937254111AD2616400EEA6D5 /* OreoTableViewCell.m */; };
+		937254161AD2674400EEA6D5 /* OreoCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 937254151AD2674400EEA6D5 /* OreoCustomTableViewCell.m */; };
+		9372541A1AD271EF00EEA6D5 /* OreoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937254191AD271EF00EEA6D5 /* OreoTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,20 @@
 		937253F01AD2286F00EEA6D5 /* HW-customViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW-customViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		937253F51AD2286F00EEA6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937253F61AD2286F00EEA6D5 /* HW_customViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW_customViewTests.m; sourceTree = "<group>"; };
+		937254001AD22A3200EEA6D5 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		937254011AD22A3200EEA6D5 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		937254041AD22D7400EEA6D5 /* UIView+LayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutHelper.h"; sourceTree = "<group>"; };
+		937254051AD22D7400EEA6D5 /* UIView+LayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutHelper.m"; sourceTree = "<group>"; };
+		937254071AD2342100EEA6D5 /* OreoContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoContent.h; sourceTree = "<group>"; };
+		937254081AD2342100EEA6D5 /* OreoContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoContent.m; sourceTree = "<group>"; };
+		9372540C1AD2417C00EEA6D5 /* OreoEdgetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoEdgetLabel.h; sourceTree = "<group>"; };
+		9372540D1AD2417C00EEA6D5 /* OreoEdgetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoEdgetLabel.m; sourceTree = "<group>"; };
+		937254101AD2616400EEA6D5 /* OreoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoTableViewCell.h; sourceTree = "<group>"; };
+		937254111AD2616400EEA6D5 /* OreoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoTableViewCell.m; sourceTree = "<group>"; };
+		937254141AD2674400EEA6D5 /* OreoCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoCustomTableViewCell.h; sourceTree = "<group>"; };
+		937254151AD2674400EEA6D5 /* OreoCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoCustomTableViewCell.m; sourceTree = "<group>"; };
+		937254181AD271EF00EEA6D5 /* OreoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoTableViewController.h; sourceTree = "<group>"; };
+		937254191AD271EF00EEA6D5 /* OreoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,10 @@
 		937253D91AD2286F00EEA6D5 /* HW-customView */ = {
 			isa = PBXGroup;
 			children = (
+				937254171AD271BF00EEA6D5 /* ViewController */,
+				937254131AD2617400EEA6D5 /* View */,
+				9372540B1AD2406400EEA6D5 /* Object */,
+				937254031AD22A3E00EEA6D5 /* Category */,
 				937253DE1AD2286F00EEA6D5 /* AppDelegate.h */,
 				937253DF1AD2286F00EEA6D5 /* AppDelegate.m */,
 				937253E11AD2286F00EEA6D5 /* ViewController.h */,
@@ -117,6 +142,48 @@
 				937253F51AD2286F00EEA6D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		937254031AD22A3E00EEA6D5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				937254001AD22A3200EEA6D5 /* UIView+Frame.h */,
+				937254011AD22A3200EEA6D5 /* UIView+Frame.m */,
+				937254041AD22D7400EEA6D5 /* UIView+LayoutHelper.h */,
+				937254051AD22D7400EEA6D5 /* UIView+LayoutHelper.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		9372540B1AD2406400EEA6D5 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				937254071AD2342100EEA6D5 /* OreoContent.h */,
+				937254081AD2342100EEA6D5 /* OreoContent.m */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		937254131AD2617400EEA6D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9372540C1AD2417C00EEA6D5 /* OreoEdgetLabel.h */,
+				9372540D1AD2417C00EEA6D5 /* OreoEdgetLabel.m */,
+				937254101AD2616400EEA6D5 /* OreoTableViewCell.h */,
+				937254111AD2616400EEA6D5 /* OreoTableViewCell.m */,
+				937254141AD2674400EEA6D5 /* OreoCustomTableViewCell.h */,
+				937254151AD2674400EEA6D5 /* OreoCustomTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		937254171AD271BF00EEA6D5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				937254181AD271EF00EEA6D5 /* OreoTableViewController.h */,
+				937254191AD271EF00EEA6D5 /* OreoTableViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +230,7 @@
 		937253CF1AD2286F00EEA6D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Oreo;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = ALPHACamp;
 				TargetAttributes = {
@@ -219,8 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937254061AD22D7400EEA6D5 /* UIView+LayoutHelper.m in Sources */,
+				937254021AD22A3200EEA6D5 /* UIView+Frame.m in Sources */,
+				937254091AD2342100EEA6D5 /* OreoContent.m in Sources */,
 				937253E31AD2286F00EEA6D5 /* ViewController.m in Sources */,
+				9372541A1AD271EF00EEA6D5 /* OreoTableViewController.m in Sources */,
+				937254161AD2674400EEA6D5 /* OreoCustomTableViewCell.m in Sources */,
+				9372540E1AD2417C00EEA6D5 /* OreoEdgetLabel.m in Sources */,
 				937253E01AD2286F00EEA6D5 /* AppDelegate.m in Sources */,
+				937254121AD2616400EEA6D5 /* OreoTableViewCell.m in Sources */,
 				937253DD1AD2286F00EEA6D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HW-customView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HW-customView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
